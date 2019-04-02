@@ -7,11 +7,11 @@
 #define waiting 2
 #define visited 3
 
-int n;    
-int adj[MAX][MAX];
+int number;    
+int adjacent[MAX][MAX];
 int state[MAX]; 
-void create_graph();
-void BF_Traversal();
+void graph();
+void Traversal();
 void BFS(int v);
 
 int queue[MAX], front = -1,rear = -1;
