@@ -7,7 +7,7 @@
 #define waiting 2
 #define visited 3
 
-int number;    
+int num;    
 int adjacent[MAX][MAX];
 int state[MAX]; 
 void graph();
